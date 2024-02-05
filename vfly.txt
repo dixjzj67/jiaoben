@@ -148,7 +148,7 @@ Unfly.Position = UDim2.new(0.0759493634, 0, 0.705797076, 0)
 Unfly.Size = UDim2.new(0, 199, 0, 32)
 Unfly.Visible = false
 Unfly.Font = Enum.Font.SourceSans
-Unfly.Text = "Disable"
+Unfly.Text = "降落"
 Unfly.TextColor3 = Color3.fromRGB(255, 255, 255)
 Unfly.TextScaled = true
 Unfly.TextSize = 14.000
@@ -165,13 +165,13 @@ Unfly.MouseButton1Click:Connect(function()
 	HumanoidRP:FindFirstChildOfClass("BodyGyro"):Destroy()
 end)
 
-Vfly.Name = "汽车飞行"
+Vfly.Name = "Vfly"
 Vfly.Parent = Drag
 Vfly.BackgroundColor3 = Color3.fromRGB(0, 150, 191)
 Vfly.BorderSizePixel = 0
 Vfly.Size = UDim2.new(0, 57, 0, 27)
 Vfly.Font = Enum.Font.SourceSans
-Vfly.Text = "VFly"
+Vfly.Text = "汽车飞行"
 Vfly.TextColor3 = Color3.fromRGB(255, 255, 255)
 Vfly.TextScaled = true
 Vfly.TextSize = 14.000
