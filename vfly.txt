@@ -55,7 +55,7 @@ ddnsfbfwewefe.TextScaled = true
 ddnsfbfwewefe.TextSize = 14.000
 ddnsfbfwewefe.TextWrapped = true
 
-Speed.Name = "速度"
+Speed.Name = "Speed"
 Speed.Parent = FlyFrame
 Speed.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
 Speed.BorderColor3 = Color3.fromRGB(0, 0, 191)
@@ -108,7 +108,7 @@ Speeed.Position = UDim2.new(0.0759493634, 0, 0.402877688, 0)
 Speeed.Size = UDim2.new(0, 87, 0, 32)
 Speeed.ZIndex = 0
 Speeed.Font = Enum.Font.SourceSans
-Speeed.Text = "Speed:"
+Speeed.Text = "速度:"
 Speeed.TextColor3 = Color3.fromRGB(255, 255, 255)
 Speeed.TextScaled = true
 Speeed.TextSize = 14.000
