@@ -49,13 +49,13 @@ ddnsfbfwewefe.BorderSizePixel = 0
 ddnsfbfwewefe.Position = UDim2.new(-0.000210968778, 0, -0.00395679474, 0)
 ddnsfbfwewefe.Size = UDim2.new(0, 237, 0, 27)
 ddnsfbfwewefe.Font = Enum.Font.SourceSans
-ddnsfbfwewefe.Text = "Script made by WarriorRoberr"
+ddnsfbfwewefe.Text = "兔子汉化"
 ddnsfbfwewefe.TextColor3 = Color3.fromRGB(255, 255, 255)
 ddnsfbfwewefe.TextScaled = true
 ddnsfbfwewefe.TextSize = 14.000
 ddnsfbfwewefe.TextWrapped = true
 
-Speed.Name = "Speed"
+Speed.Name = "速度"
 Speed.Parent = FlyFrame
 Speed.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
 Speed.BorderColor3 = Color3.fromRGB(0, 0, 191)
@@ -77,7 +77,7 @@ Fly.BorderSizePixel = 0
 Fly.Position = UDim2.new(0.0759493634, 0, 0.705797076, 0)
 Fly.Size = UDim2.new(0, 199, 0, 32)
 Fly.Font = Enum.Font.SourceSans
-Fly.Text = "Enable"
+Fly.Text = "起飞"
 Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
 Fly.TextScaled = true
 Fly.TextSize = 14.000
@@ -85,7 +85,7 @@ Fly.TextWrapped = true
 Fly.MouseButton1Click:Connect(function()
 	local HumanoidRP = game.Players.LocalPlayer.Character.HumanoidRootPart
 	Fly.Visible = false
-	Stat2.Text = "On"
+	Stat2.Text = "开启"
 	Stat2.TextColor3 = Color3.fromRGB(0, 255, 0)
 	Unfly.Visible = true
 	Flyon.Visible = true
@@ -121,7 +121,7 @@ Stat.BorderSizePixel = 0
 Stat.Position = UDim2.new(0.299983799, 0, 0.239817441, 0)
 Stat.Size = UDim2.new(0, 85, 0, 15)
 Stat.Font = Enum.Font.SourceSans
-Stat.Text = "Status:"
+Stat.Text = "状态:"
 Stat.TextColor3 = Color3.fromRGB(255, 255, 255)
 Stat.TextScaled = true
 Stat.TextSize = 14.000
@@ -134,7 +134,7 @@ Stat2.BorderSizePixel = 0
 Stat2.Position = UDim2.new(0.546535194, 0, 0.239817441, 0)
 Stat2.Size = UDim2.new(0, 27, 0, 15)
 Stat2.Font = Enum.Font.SourceSans
-Stat2.Text = "Off"
+Stat2.Text = "关闭"
 Stat2.TextColor3 = Color3.fromRGB(255, 0, 0)
 Stat2.TextScaled = true
 Stat2.TextSize = 14.000
@@ -156,7 +156,7 @@ Unfly.TextWrapped = true
 Unfly.MouseButton1Click:Connect(function()
 	local HumanoidRP = game.Players.LocalPlayer.Character.HumanoidRootPart
 	Fly.Visible = true
-	Stat2.Text = "Off"
+	Stat2.Text = "关闭"
 	Stat2.TextColor3 = Color3.fromRGB(255, 0, 0)
 	wait()
 	Unfly.Visible = false
@@ -165,7 +165,7 @@ Unfly.MouseButton1Click:Connect(function()
 	HumanoidRP:FindFirstChildOfClass("BodyGyro"):Destroy()
 end)
 
-Vfly.Name = "Vfly"
+Vfly.Name = "汽车飞行"
 Vfly.Parent = Drag
 Vfly.BackgroundColor3 = Color3.fromRGB(0, 150, 191)
 Vfly.BorderSizePixel = 0
